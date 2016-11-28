@@ -1,0 +1,5 @@
+---
+layout: post
+title: Automator Test
+---
+Automator Test
