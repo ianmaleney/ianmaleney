@@ -1,9 +1,9 @@
-“There is a cliff, whose high and bending head
-Looks fearfully in the confinèd deep.
-Bring me but to the very brim of it,
-And I’ll repair the misery thou dost bear
-With something rich about me. From that place
-I shall no leading need.”
+*“There is a cliff, whose high and bending head*
+*Looks fearfully in the confinèd deep.*
+*Bring me but to the very brim of it,*
+*And I’ll repair the misery thou dost bear*
+*With something rich about me. From that place*
+*I shall no leading need.”*
 
 (King Lear; Act 4, Scene 1)
 
