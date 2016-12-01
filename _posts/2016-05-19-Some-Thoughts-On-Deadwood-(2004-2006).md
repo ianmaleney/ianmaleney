@@ -1,3 +1,8 @@
+---
+layout: post
+title: Some Thoughts on Deadwood (2004-2006)
+---
+
 _“There is a cliff, whose high and bending head_  
 _Looks fearfully in the confinèd deep._  
 _Bring me but to the very brim of it,_  
