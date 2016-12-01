@@ -1,9 +1,9 @@
-*“There is a cliff, whose high and bending head  *
-*Looks fearfully in the confinèd deep.  *
-*Bring me but to the very brim of it,  *
-*And I’ll repair the misery thou dost bear  *
-*With something rich about me. From that place  *
-*I shall no leading need.”*
+_“There is a cliff, whose high and bending head_  
+_Looks fearfully in the confinèd deep._  
+_Bring me but to the very brim of it,_  
+_And I’ll repair the misery thou dost bear_  
+_With something rich about me. From that place_  
+_I shall no leading need.”_
 
 (King Lear; Act 4, Scene 1)
 
@@ -15,7 +15,17 @@ It is not as if I have been regularly attending theatrical performances. I haven
 
 I watched *Angels In America* this year, the HBO adaptation of Tony Kushner’s epic play. Prior, a young gay man living with and perhaps dying of AIDS, finds himself in a vision of heaven. There, instead of God, he finds a giant administrative team of angels, all busily typing away, sorting through files, trying to figure out a way to hasten God’s return. The lead angel, played by Emma Thompson, speaks in this glorious upper register, befitting a character who is, Kushner says in the play’s notes, “immensely august, serious and dangerously powerful *always*.”
 
-*“Look up, look up,</br>It is Not-to-Be Time.</br>Oh who asks of the Orders Blessing</br>With Apocalypse Descending?</br>Who demands: More Life?</br>When Death like a Protector</br>Blinds our eyes, shielding from tender nerve</br>More horror than can be borne.</br>Let any Being on whom Fortune smiles</br>Creep away to Death</br>Before that last dreadful daybreak…”*
+*“Look up, look up,*  
+*It is Not-to-Be Time.*  
+*Oh who asks of the Orders Blessing*  
+*With Apocalypse Descending?*  
+*Who demands: More Life?*  
+*When Death like a Protector*  
+*Blinds our eyes, shielding from tender nerve*  
+*More horror than can be borne.*  
+*Let any Being on whom Fortune smiles*  
+*Creep away to Death*  
+*Before that last dreadful daybreak…”*
 
 It goes on like that. There is something of Shakespeare in this I think, particularly the second half; “shielding from tender nerve more horror than can be borne.” The lines are spoken quickly, delivered quicker than I could immediately grasp. But their emotive power emerges almost instantly. The fear and the dread, the terrifying desire of an eternal being that life itself would stop, it is there almost in the delivery itself, the rhythm of it, even if only a fraction of the words are truly heard and acknowledged.
 
