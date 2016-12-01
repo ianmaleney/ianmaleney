@@ -2,7 +2,7 @@
 layout: post
 title: Art, Design, Web Design
 ---
-![William Morris trellis wallpaper design](/images/morris_wallpaper_trellis.jpg)
+![William Morris ‘Trellis’ wallpaper design](https://ianmaleney.github.io/images/morris_wallpaper_trellis.jpg)
 
 It’s William Morris’ birthday today, so I figured that’d be a decent excuse to spend some time thinking about something that’s been bothering me these past few weeks. I’ve spent a significant part of the last 15/16 months learning about web design and development. It’s been really interesting and exciting but, as someone coming from an ‘artistic’ background, also deeply frustrating in a couple of important ways. As I’ve gone through various stages in learning what I’m doing with code on any given day, and learning how the industry of web design and development functions in the real world, I’ve found a nagging voice in the back of my head asking that tired, age-old question: “Yes, but is it art?”
 
