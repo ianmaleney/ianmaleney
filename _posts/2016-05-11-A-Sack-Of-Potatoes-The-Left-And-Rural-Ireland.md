@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Sack Of Potatoes: The Left & Rural Ireland
+title: A Sack Of Potatoes (The Left & Rural Ireland)
 ---
 It is common practice when discussing leftist politics and rural affairs to quote Marx on “the idiocy of rural life,” and to follow it up quickly with his description of the peasant class as a “sack of potatoes”. Such traditions observed, let us move on.
 Is there any evidence that a single leftist politician in this country has a solid grasp on how rural life — its economy, its social structures, its cultural life — actually functions? On the basis of the lengthy election cycle we have just witnessed, I would say not. As far as I can tell there is no strategy (coherent or otherwise) coming from any progressive group in the country that attempts to engage specifically with rural issues. These issues might be subsumed into the rubric of “the environment,” but such a move is a fudge at best and wilful, destructive ignorance at worst.
