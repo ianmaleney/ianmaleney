@@ -15,6 +15,7 @@
   </head>
 
   <body>
+
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
@@ -33,14 +34,15 @@
         </header>
       </div>
     </div>
+
     <div class="wrapper-sidebar">
       <div class="container">
-        <aside class="sidebar">
-          <ul class="recent-posts">
+        <aside class="c-sidebar">
+          <ul class="c-sidebar__recent-posts-list">
             {% for post in site.posts limit:5 %}
-            <li>
+            <li class="c-sidebar__recent-post">
               <a href="{{ post.url }}">
-              <h3>{{ post.title }}</h3>
+              <p class="c-sidebar__recent-post-title">{{ post.title }}</p>
               </a>
             </li>
             {% endfor %}
