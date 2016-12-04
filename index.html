@@ -3,16 +3,53 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+  {% for post in site.posts limit:2 %}
+    <article class="c-post">
+      <div class="c-post__header">
+        <div class="c-post__header__date">
+          {{ post.date | date: "%a, %B %e, %Y" }} {{ post.time}}
+        </div>
+        <div class="c-post__header__title">
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        </div>
+      </div>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
+      <div class="c-post__content">
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">+ Read More</a>
+    </article>
+  {% endfor %}
+
+    <div class="c-signup">
+      <h2 class="c-signup__title">Pleasant Bits of the Internet, Collected</h2>
+      <p class="c-signup__info">I do an irregular newsletter where I collect nice links from the internet, and send them to you. If you'd like to get that in your inbox, sign up here.</p>
+      <form class="c-signup__form" action="https://tinyletter.com/fallowmedia" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/fallowmedia', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+      <label class="c-signup__form-label" for="tlemail">Enter your email address</label>
+      <input class="input input--large" type="text" name="email" id="tlemail" placeholder="Enter Your Email Address"/>
+      <input type="hidden" value="1" name="embed"/>
+      <input class="button button--round button--large" type="submit" value="Subscribe" />
+      </form>
+
+    </div>
+
+    {% for post in site.posts offset:2 %}
+    <article class="c-post">
+      <div class="c-post__header">
+        <div class="c-post__header__date">
+          {{ post.date | date: "%a, %B %e, %Y" }} {{ post.time}}
+        </div>
+        <div class="c-post__header__title">
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        </div>
+      </div>
+
+      <div class="c-post__content">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">+ Read More</a>
     </article>
   {% endfor %}
 </div>

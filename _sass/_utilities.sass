@@ -4,15 +4,26 @@
 
 .date
   font-style: italic
-  color: $gray
+  color: c('secondary')
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after
-    content: " "
-    display: table
-
+  content: " "
+  display: table
 
 .clearfix:after
-    clear: both
+  clear: both
+
+// Trumps
+.u-highlight
+  color: c('highlight') !important
+  &:hover
+    color: c('accent') !important
+
+.u-italic
+  font-style: italic !important
+
+.u-bold
+  font-weight: bold !important

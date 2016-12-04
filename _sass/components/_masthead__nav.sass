@@ -1,0 +1,35 @@
+.c-masthead__nav
+  padding-top: 10px
+  width: 200px
+  display: flex
+  flex-direction: column
+  font-family: $sans
+  font-size: 12px
+  font-weight: bold
+  margin-left: 10px
+  &:before
+    content: ''
+    position: relative
+    display: block
+    top: -10px
+    left: 0
+    width: 20px
+    height: 1px
+    background-color: c('spacer')
+
+  @include max-six-forty
+    float: none
+    margin-top: 9px
+    display: block
+    font-size: 16px
+
+
+  a
+    font-family: $sans
+    font-size: 12px
+    font-weight: bold
+    color: c('black')
+    padding: 5px
+
+    @include max-six-forty
+      margin: 0 10px
