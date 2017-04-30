@@ -1,0 +1,13 @@
+<div class="wrapper-sidebar">
+  <aside class="c-sidebar">
+    <ul class="c-sidebar__recent-posts-list">
+      {% for post in site.posts limit:5 %}
+      <li class="c-sidebar__recent-post">
+        <a href="{{ post.url }}" class="c-sidebar__recent-post-title">
+          {{ post.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </aside>
+</div>
