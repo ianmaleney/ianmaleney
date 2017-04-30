@@ -1,46 +1,71 @@
 //
+// Grid Wrapper
+//
+.grid-wrapper
+  width: 100vw
+  display: grid 
+  grid-template-columns: 1fr 3fr 1fr
+  grid-template-rows: repeat(auto-fill, minmax(80px, 1fr))
+  grid-gap: 10px
+
+
+//
 // .masthead
 //
-
-.c-masthead--wrapper
-  margin: 20px 0 0 285px
-  height: 180px
-
-
 .c-masthead
-  @include max-six-forty
-    text-align: center
-
-.wrapper-sidebar
-  position: fixed
-  width: 285px
+  grid-column: 1 / 4
+  grid-row: 1 / 2
+  display: grid
+  grid-template-columns: 1fr 3fr 1fr
+  grid-gap: 10px
+  border-bottom: 1px solid c('spacer')
+  margin: 0 10px
+  @media (min-width: 768px)
+    grid-column: 1 / 2
+    grid-template-columns: 1fr
+    grid-row-start: 3
+    height: calc(100vh - 80px)
+    width: calc(20vw - 20px)
+    padding-right: 10px
+    position: fixed
+    top: 100px
 
 //
 // .main
 //
 #main
-  width: 58vw
-  max-width: 830px
-  margin: 15px 0 0 285px
-  padding-left: 10px
+  grid-column: 1 / 4
+  grid-row-start: 2
+  padding: 0 10px
+  @media (min-width: 768px)
+    grid-column: 2 / 3
+    grid-row-start: 2
+    padding: 0 0 0 0
 
 
 
 .wrapper-footer
-  margin-top: 50px
-  margin-left: 285px
-  border-top: 1px solid c('spacer')
-  width: 58vw
-  max-width: 830px
+  grid-column: 1 / 4
+  @media (min-width: 768px)
+    display: block
+    position: fixed
+    width: calc(20vw - 30px)
+    height: 80px
+    bottom: 23px
+    right: 10px
+    border-top: 1px solid c('spacer')
 
 
 footer
-  padding: 20px 0
+  padding: 20px 10px
   width: 100%
   text-align: right
   display: flex
   align-items: center
   justify-content: flex-end
+  @media (min-width: 768px)
+    justify-content: flex-start
+    padding: 20px 0
   h3
     display: inline-block
     color: c('black')

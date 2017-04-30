@@ -5,6 +5,7 @@
 
 .c-signup__title
   padding-top: 10px
+  padding-bottom: 4px
   font-size: 19px
   font-weight: bold
   color: c('black')
@@ -56,10 +57,21 @@
     background: c('secondary')
 
 .button--large
-  height: 85px
-  width: 85px
+  height: 65px
+  width: 75px
+  max-height: 65px
+  max-width: 75px
+  @media (min-width: 600px)
+    height: 75px
+    max-height: 75px
+  @media (min-width: 768px)
+    height: 80px
+    width: 80px
+    max-height: 80px
+    max-width: 80px
+
 
 .button--round
   border: none
-  border-radius: 100%
+  border-radius: 80px
   transform: translate(-40px, 27px)

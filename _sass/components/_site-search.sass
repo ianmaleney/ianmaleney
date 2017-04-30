@@ -1,15 +1,21 @@
 .c-site-search
+  background-color: white
   border-bottom: 1px solid c('spacer')
   position: absolute
-  top: 21px
-  left: 295px
-  width: 55vw
-  max-width: 750px
-  min-width: 280px
-  z-index: 2
-  transform: translateY(-66px)
+  top: 80px
+  left: 0
+  width: calc(100vw - 20px)
+  margin: 0 10px
+  z-index: 3
+  transform: translateY(-160px)
   opacity: 0
   transition: transform 0.3s ease-in-out
+  @media (min-width: 768px)
+    position: fixed
+    top: 0
+    height: 160px
+    transform: translateY(-80px)
+    padding: 40px 10px
 
 .c-site-search.c-site-search--visible
   transition: all 0.3s ease-in-out
@@ -85,3 +91,25 @@ input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:
   left: 0 !important
   top: 0 !important
   height: 80vh !important
+
+table.gsc-search-box
+  @media (min-width: 768px)
+    max-width: 768px
+    margin-left: calc(50vw - (768px/2))
+
+.c-site-overlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100vw
+  height: 100vh
+  background-color: rgba(0,0,0,0.3)
+  pointer-events: none
+  z-index: 2
+  opacity: 0
+  transition: opacity 0.3s ease-in-out
+
+.c-site-overlay.visible 
+  opacity: 1
+  pointer-events: auto
+

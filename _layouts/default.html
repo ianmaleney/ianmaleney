@@ -16,8 +16,7 @@
 
   <body>
     <div class="grid-wrapper">
-      <div class="c-masthead--wrapper">
-        <header class="c-masthead clearfix">
+        <header class="c-masthead">
 
           <div class="c-site-info">
 
@@ -25,7 +24,7 @@
 
             {% include search-icon.html %}
 
-            {% include search.html %}
+            
 
           </div>
 
@@ -35,16 +34,16 @@
             {% endfor %}
           </nav>
         </header>
-      </div>
 
       {% include sidebar.html %}
 
-      <div id="main" role="main" class="container">
+      <div id="main" role="main">
         {{ content }}
       </div>
 
       {% include footer.html %}
     </div>
+    {% include search.html %}
     <script defer>
 
       document.addEventListener("DOMContentLoaded", function() {

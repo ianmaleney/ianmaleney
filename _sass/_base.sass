@@ -2,7 +2,9 @@
   box-sizing: border-box
 
 html
-  font-size: 20px
+  font-size: 16px
+  @media (min-width: 600px)
+    font-size: 18px
 
 .heading-1
   +type-setting(5, $serif)
@@ -20,11 +22,12 @@ body
   background: c('white')
   font: 20px/1.4 $serif
   color: c('secondary')
+  width: 100vw
 
 
 .container
-  max-width: 700px
-  padding: 0 10px
+  //max-width: 700px
+  //padding: 0 10px
   width: 100%
 
 
@@ -36,11 +39,11 @@ h4
   color: c('background-light')
 
 p
-  margin: 28px 0
+  margin: 16px 0
   +type-setting(0, $serif)
 
 a
-  color: c('accent')
+  color: c('black')
   text-decoration: none
   cursor: pointer
   &:hover, &:active
@@ -52,9 +55,16 @@ ul, ol
   margin: 15px 0
   padding-left: 30px
 
+li 
+  +type-setting(0, $serif)
+  margin-left: -30px
+  margin-bottom: 8px
+  padding-bottom: 8px
+  border-bottom: 1px solid c('spacer')
+
 
 ul
-  list-style-type: disc
+  list-style-type: none
 
 
 ol
