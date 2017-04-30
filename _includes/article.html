@@ -1,0 +1,16 @@
+<article class="c-post">
+  <div class="c-post__header">
+    <div class="c-post__header__date">
+      {{ post.date | date: "%a, %B %e, %Y" }} {{ post.time}}
+    </div>
+    <div class="c-post__header__title">
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    </div>
+  </div>
+
+  <div class="c-post__content">
+    {{ post.excerpt }}
+  </div>
+
+  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">+ Read More</a>
+</article>
