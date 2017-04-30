@@ -22,3 +22,6 @@
     padding: 5px
     &:hover
       color: c('highlight')
+  @supports not (display: grid)
+    @media (max-width: 767px)
+      max-width: calc(20vw - 20px)

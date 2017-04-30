@@ -29,6 +29,14 @@
     padding-right: 10px
     position: fixed
     top: 100px
+  @supports not (display: grid)
+    @media (max-width: 767px)
+      clear: both
+    @media (min-width: 768px)
+      display: flex
+      flex-direction: column-reverse
+      justify-content: flex-start
+      height: 80vh
 
 //
 // .main
@@ -41,6 +49,14 @@
     grid-column: 2 / 3
     grid-row-start: 2
     padding: 0 0 0 0
+  @supports not (display: grid)
+    max-width: calc(100vw - 20px)
+    margin-left: 10px
+    margin-top: 10px
+    @media (min-width: 768px)
+      max-width: calc(60vw - 20px)
+      margin-left: calc(20vw + 10px)
+      margin-top: 100px
 
 
 

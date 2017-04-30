@@ -7,6 +7,13 @@
     grid-column: 1 / 2
     grid-row-start: 8
     border-top: 1px solid c('spacer')
+  @supports not (display: grid)
+    @media (max-width: 767px)
+      width: calc(80vw - 20px)
+      float: left
+    //@media (min-width: 768px)
+
+
 
 .c-site-info__name
   color: c('black')
