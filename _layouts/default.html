@@ -15,36 +15,36 @@
   </head>
 
   <body>
+    <div class="grid-wrapper">
+      <div class="c-masthead--wrapper">
+        <header class="c-masthead clearfix">
 
-    <div class="c-masthead--wrapper">
-      <header class="c-masthead clearfix">
+          <div class="c-site-info">
 
-        <div class="c-site-info">
+            <h1 class="c-site-info__name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
 
-          <h1 class="c-site-info__name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            {% include search-icon.html %}
 
-          {% include search-icon.html %}
+            {% include search.html %}
 
-          {% include search.html %}
+          </div>
 
-        </div>
+          <nav class="c-masthead__nav">
+            {% for link in site.data.nav %}
+            <a class="c-masthead__nav--link" href="{{ site.baseurl }}{{ link.href }}">{{ link.title }}</a>
+            {% endfor %}
+          </nav>
+        </header>
+      </div>
 
-        <nav class="c-masthead__nav">
-          {% for link in site.data.nav %}
-          <a class="c-masthead__nav--link" href="{{ site.baseurl }}{{ link.href }}">{{ link.title }}</a>
-          {% endfor %}
-        </nav>
-      </header>
+      {% include sidebar.html %}
+
+      <div id="main" role="main" class="container">
+        {{ content }}
+      </div>
+
+      {% include footer.html %}
     </div>
-
-    {% include sidebar.html %}
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    {% include footer.html %}
-
     <script defer>
 
       document.addEventListener("DOMContentLoaded", function() {
