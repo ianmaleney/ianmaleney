@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Gerhard Steidl is Making Books an Art Form
+category: blog_links
 ---
 ![Photo by Robert Frank](/images/frank.jpg)
 

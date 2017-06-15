@@ -1,0 +1,47 @@
+ul.link-list
+	border-top: 6px black solid
+	padding-top: 12px
+	margin-top: 24px
+
+li.featured-link
+	padding-top: 15px
+	a
+		font-size: 0.9rem
+		font-weight: bold
+		text-decoration: underline
+		text-decoration-skip: ink
+		&:hover
+			color: c('highlight')
+		@media (min-width: 768px)
+			font-size: 1.1rem
+
+.blog-menu
+	position: fixed
+	bottom: 30px
+	right: 15vw
+	@media (min-width: 1280px)
+		right: 18vw
+	@media (max-width: 900px)
+		display: flex
+		flex-direction: row
+		background-color: rgba(c('white'), 0.8)
+		border-top: 2px solid black
+		width: 100vw
+		bottom: -20px
+		left: 0
+		justify-content: space-around
+		padding: 12px 0
+
+.blog-menu__item
+	font-weight: bold
+	&:hover
+		color: c('highlight')
+		cursor: pointer
+	&.active
+		color: c('highlight')
+
+.blog_section
+	display: none
+
+.blog_section.visible
+	display: block

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Art, Design, Web Design
+category: blog_post
 ---
 ![William Morris ‘Trellis’ wallpaper design](/images/morris_wallpaper_trellis.jpg)
 

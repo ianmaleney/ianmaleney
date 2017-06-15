@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Some Thoughts on Deadwood (2004-2006)
+category: blog_post
 ---
 
 _“There is a cliff, whose high and bending head_  

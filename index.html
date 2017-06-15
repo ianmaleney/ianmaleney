@@ -2,14 +2,4 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts limit:2 %}
-    {% include article.html %}
-  {% endfor %}
 
-  {% include newsletter-signup.html %}
-
-  {% for post in site.posts offset:2 %}
-    {% include article.html %}
-  {% endfor %}
-</div>
