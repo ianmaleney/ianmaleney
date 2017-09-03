@@ -19,7 +19,7 @@ html
   +type-setting(2, $serif)
 
 body
-  background: c('white')
+  background-color: c('background-light')
   font: 20px/1.4 $serif
   color: c('secondary')
   width: 100vw
@@ -36,11 +36,21 @@ h1, h2, h3, h4, h5, h6
 h4
   color: c('background-light')
 
+hr 
+  display: block
+  height: 1px
+  border: 0
+  border-top: 1px solid c('spacer')
+  margin: 1em 0
+  padding: 0
+
 p
   margin: 16px 0
   +type-setting(0, $serif)
   a 
-    color: c('secondary')
+    color: c('primary')
+    border-bottom: 1px solid c('highlight')
+    font-weight: 600
     &:hover, &:active
       color: c('highlight')
 

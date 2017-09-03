@@ -1,41 +1,22 @@
 .c-masthead__nav
-  grid-column: 2 / 5
-  display: grid
-  grid-template-columns: repeat(4, 1fr)
-  grid-gap: 10px
-  @media (max-width: 600px)
-    grid-column: 1 / 5
-  @media (max-width: 767px)
-    grid-row: 2 / 3
-  @media (min-width: 768px)
-    grid-column: 1 / 5
-    border-left: none
-    justify-content: flex-end
+  padding: 3px 0
   a
     font-family: $sans
-    font-size: 0.75rem
-    font-weight: bold
-    color: c('black')
-    padding: 5px 8px
-    border-left: 6px solid black
-    display: flex 
-    align-items: flex-end
-    @media (min-width: 600px)
-      font-size: 1.2rem
+    font-size: 0.9rem
+    letter-spacing: 1px
+    color: c('primary')
+    padding: 5px 25px
+    display: inline-block
+    @media (max-width: 767px)
+      margin-top: 5px
+      border-left: 1px solid c('spacer')
+      &:first-of-type
+        border-left: none
+        padding-left: 0
     @media (min-width: 768px)
-      padding: 5px 16px
-      border-left: 12px solid black
-      font-size: calc(2rem + 0.5vw)
+      display: block
+      padding: 5px 0
     &:hover
       color: c('highlight')
-      border-left-color: c('highlight')
     &.active
       color: c('highlight')
-      border-left-color: c('highlight')
-  @supports not (display: grid)
-    display: flex
-    flex-direction: row 
-    justify-content: flex-start
-    flex: 1 0 100%
-    a 
-      flex: 1 0 25%

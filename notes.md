@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-permalink: /blog/
+title: Notes
+permalink: /notes/
 ---
 
 <div class="blog_section blog_section__posts visible">
