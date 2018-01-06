@@ -8,19 +8,20 @@
   </head>
 
   <body>
+    <!--<div class="bck"></div>-->
     <div class="grid-wrapper">
         <header class="c-masthead">
-
-          <nav class="c-masthead__nav">
-            {% for link in site.data.nav %}
-            <a class="c-masthead__nav--link {% if page.title == link.title %} active {% endif %}" href="{{ site.baseurl }}{{ link.href }}">{{ link.title }}</a>
-            {% endfor %}
-          </nav>
-
-          <h1 class="c-site-info"><a href="{{ site.baseurl }}/" class="c-site-info__name>">Ian Maleney</a></h1>
+          <div class="c-masthead__text">
+            <p class="c-masthead__text--small">My name is</p> 
+            <p class="c-masthead__text--large">Ian Maleney</p>
+            <p class="c-masthead__text--small">I’m a writer, editor and web developer living in Dublin, Ireland.</p>
+          </div>
+          <div class="c-masthead__image">
+            <img src="images/profile-photo.svg" />
+          </div>
 
         </header>
-        <main id="main" class="half-width-content">
+        <main id="main">
           {{ content }}
         </main>
     </div>

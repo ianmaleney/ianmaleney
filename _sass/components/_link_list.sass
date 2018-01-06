@@ -1,10 +1,10 @@
 ul.link-list
-	border-top: 6px c('black') solid
+	border-top: 6px $black solid
 	padding-top: 24px
 	margin-top: 24px
 	li 
 		a 
-			color: c('primary')
+			color: $highlight
 	li.featured-link
 		padding-top: 15px
 		a
@@ -12,9 +12,9 @@ ul.link-list
 			font-weight: bold
 			text-decoration: underline
 			text-decoration-skip: ink
-			color: c('black')
+			color: $black
 			&:hover
-				color: c('highlight')
+				color: $highlight
 			@media (min-width: 768px)
 				font-size: 1.1rem
 
@@ -27,8 +27,8 @@ ul.link-list
 	@media (max-width: 767px)
 		display: flex
 		flex-direction: row
-		background-color: rgba(c('background-light'), 0.95)
-		border-top: 1px solid c('spacer')
+		background-color: rgba($background-dark, 0.95)
+		border-top: 1px solid $spacer
 		width: 100vw
 		bottom: -20px
 		left: 0
@@ -38,10 +38,10 @@ ul.link-list
 .blog-menu__item
 	font-weight: bold
 	&:hover
-		color: c('highlight')
+		color: $highlight
 		cursor: pointer
 	&.active
-		color: c('highlight')
+		color: $highlight
 
 .blog_section
 	display: none

@@ -20,24 +20,12 @@
     @content
 
 // Colour Palette
-$swatch: ( 'white': #fff, 'black': #222, 'primary': #376576, 'accent': #4dadf7, 'secondary': #868e96, 'highlight': #F2B7AB, 'background-light': #eff3fc, 'background-dark': #343a40, 'spacer': rgba(0,0,0,0.1) )
-
-@function swatch-pick($key: 'primary')
-  @return map-get($swatch, $key)
-
-// Tinting & Shading Interval
-$color-interval: 10% !global
-
-// Colour Picking Function
-@function c($color-name: primary, $level: 0, $base: white)
-
-  // Get Color from Swatch
-  $sf-color: swatch-pick($color-name)
-  // Choose Tinting/Shading Base
-  $color-base: if($level < 0, black, $base)
-
-  // Return final colour
-  @return mix($color-base, $sf-color, $level * $color-interval)
+$white: #fff 
+$black: #222 
+$secondary: #95989A 
+$highlight: #FBC702 
+$background-dark: #0f191f
+$spacer: rgba(0,0,0,0.1)
 
 
 //
@@ -46,37 +34,14 @@ $color-interval: 10% !global
 //
 //
 
-// Modular Scale
-$ms-base: 0.85rem
-$ms-ratio: $augmented-fourth
-
-// Baseline
-$baseline: $ms-base * 1.6
-
 // Fonts
 $system: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
-$serif: Avenir, $system
-$sans: "AvantGarde LT Medium", Avenir, Helvetica, $system
-
-// Typographic Scale
-$type-scale: ( -1: ms(-1), 0: ms(0), 1: ms(1), 2: ms(2), 3: ms(3), 4: ms(4), 5: ms(5), 6: ms(6))
-
-@function type-scale($level)
-  @return map-get($type-scale, $level)
-
-// Baseline Scale
-$line-height: ( -1: ms(-1) * 1.6, 0: ms(0) * 1.6, 1: ms(1) * 1.55, 2: ms(2) * 1.4, 3: ms(3) * 1.4, 4: ms(4) * 1.3, 5: ms(5) * 1.3, 6: ms(6) * 1.3)
-
-@function line-height($level)
-  @return map-get($line-height, $level)
+$serif: 'Adobe Caslon Pro', $system
+$sans: Helvetica, $system
 
 // Type-Setting Mixin
-@mixin type-setting($level: 0, $family: $serif, $color: c('black'))
-  font-size: type-scale($level)
-  line-height: line-height($level)
+@mixin type-setting($size, $family: $serif, $color: $secondary)
+  font-size: $size
+  line-height: calc(#{$size} * 1.6)
   font-family: $family
   color: $color
-
-// Baseline Multiplier
-@mixin baseline($multiplier)
-  line-height: $baseline * $multiplier

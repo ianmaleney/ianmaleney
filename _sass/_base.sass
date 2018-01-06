@@ -3,63 +3,60 @@
 
 html
   font-size: 16px
-  @media (min-width: 600px)
-    font-size: 18px
-
-.heading-1
-  +type-setting(5, $serif)
-
-.heading-2
-  +type-setting(4, $serif)
-
-.heading-3
-  +type-setting(3, $serif)
-
-.heading-4
-  +type-setting(2, $serif)
 
 body
-  background-color: c('background-light')
-  font: 20px/1.4 $serif
-  color: c('secondary')
+  background-color: $background-dark
+  font-family: $serif
+  color: $secondary
+  max-width: 100vw
+  overflow-x: hidden
+
+.bck
+  background-image: radial-gradient(ellipse closest-side, lighten($background-dark, 2%) 0%, $background-dark 100%)
+  position: fixed
   width: 100vw
+  height: 100vh
+  top: 0
+  left: 0
+  pointer-events: none
+  z-index: -1
+  will-change: transform
 
 
-.container
-  width: 100%
-
+section
+  margin: 4rem 0
 
 h1, h2, h3, h4, h5, h6
-  font-family: $sans
-  color: c('secondary')
+  color: $secondary
 
-h4
-  color: c('background-light')
+h2 
+  font-size: 2.5rem
 
 hr 
   display: block
   height: 1px
   border: 0
-  border-top: 1px solid c('spacer')
+  border-top: 1px solid $highlight
   margin: 1em 0
   padding: 0
 
 p
   margin: 16px 0
-  +type-setting(0, $serif)
+  +type-setting(1.5rem, $serif, $secondary)
+  font-weight: 200
   a 
-    color: c('primary')
-    border-bottom: 1px solid c('highlight')
+    color: $highlight
+    border-bottom: 1px solid $highlight
     font-weight: 600
     &:hover, &:active
-      color: c('highlight')
+      color: $highlight
 
 a
-  color: c('black')
+  color: $highlight
   text-decoration: none
   cursor: pointer
   &:hover, &:active
-    color: c('highlight')
+    color: darken($highlight, 20%)
 
 
 
@@ -68,11 +65,11 @@ ul, ol
   padding-left: 30px
 
 li 
-  +type-setting(0, $serif)
+  +type-setting(1rem, $serif)
   margin-left: -30px
   margin-bottom: 8px
   padding-bottom: 8px
-  border-bottom: 1px solid c('spacer')
+  border-bottom: 1px solid $spacer
 
 
 ul
@@ -104,9 +101,9 @@ img
 
 
 ::-moz-selection
-  color: c('black')
-  background: c('secondary')
+  color: $black
+  background: $secondary
 
 ::selection
-  color: c('black')
-  background: c('secondary')
+  color: $black
+  background: $secondary

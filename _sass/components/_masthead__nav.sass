@@ -1,23 +1,16 @@
-.c-masthead__nav
-  padding: 3px 0
-  a
-    font-family: $sans
-    font-size: 0.9rem
-    letter-spacing: 1px
-    color: c('primary')
-    padding: 5px 25px
-    display: inline-block
-    @media (max-width: 767px)
-      margin-top: 5px
-      border-left: 1px solid c('spacer')
-      font-size: 0.75rem
-      &:first-of-type
-        border-left: none
-        padding-left: 0
-    @media (min-width: 768px)
-      display: block
-      padding: 5px 0
-    &:hover
-      color: c('highlight')
-    &.active
-      color: c('highlight')
+.c-masthead__text
+  grid-column: 1 / 6
+
+.c-masthead__text--small
+  font-style: italic
+  padding: 1.5rem 0
+  &:last-child
+    padding-bottom: 3.5rem
+    border-bottom: 1px solid $highlight
+
+.c-masthead__text--large
+  font-size: 3.3rem
+  letter-spacing: 2px
+
+.c-masthead__image
+  grid-column: 8 / 11

@@ -1,0 +1,68 @@
+.c-home__project
+	display: flex
+	margin-bottom: 3.5rem
+	padding: 0 calc(100vw / 24)
+
+.c-home__project__image-wrapper
+	border-right: 1px solid $highlight
+	padding-right: 10px
+	margin-right: 5px
+	display: flex
+	align-items: center
+	flex: 1 0 50%
+
+.c-home__project__text-wrapper
+	border-left: 1px solid $highlight
+	padding-left: 12px
+	margin-left: 5px
+	flex: 1 0 50%
+
+.c-home__project__title
+	+type-setting(2rem)
+	font-style: italic
+
+.c-home__project__description
+	+type-setting(1.3rem)
+	font-style: italic
+
+.c-home__button
+	font-size: 1.5rem
+	font-style: italic
+	border-left: 1px solid currentColor
+	border-bottom: 1px solid currentColor
+	color: $highlight
+	padding: 3px 0 5px 8px
+	letter-spacing: 2px
+	position: relative
+	grid-column: 10 / 12
+	&:after
+		content: ''
+		width: 15px
+		height: 15px
+		border-right: 1px solid currentColor
+		border-bottom: 1px solid currentColor
+		display: inline
+		transform: rotate(-45deg)
+		position: absolute
+		left: 92%
+		top: 25px
+		
+
+
+// Contact
+
+.c-home-section--contact
+	margin-top: 100px
+	margin-bottom: 200px
+	.c-home-section__heading
+		grid-column: 4 / 10
+		text-align: center
+		padding-left: 0
+		color: $highlight
+	.c-home-section--contact__icons
+		grid-column: 4 / 10
+		display: flex
+		justify-content: space-around
+		padding: 0 calc(100vw / 12)
+		svg
+			fill: $highlight
