@@ -1,0 +1,33 @@
+//
+// Publications
+//
+
+.c-home-section__publications
+  display: grid
+  grid-template-columns: 50% 50%
+  grid-column: 2 / 12
+  margin-bottom: 60px
+  @media (max-width: 768px)
+    grid-template-columns: 100%
+
+.writing-link__wrapper
+  padding: 20px 40px 40px
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  @media (max-width: 420px)
+    padding: 20px 8px 40px
+
+.writing-link
+  font-size: 1.4rem
+  line-height: 2rem
+  font-style: italic
+  letter-spacing: 0.3px
+  &:hover
+    color: $secondary
+
+.writing-link__date
+  font-size: 1rem
+  line-height: 1.2rem
+  font-variant: small-caps
+  letter-spacing: 1px

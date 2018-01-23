@@ -1,0 +1,14 @@
+<section class="c-home-section">
+	<h2 class="c-home-section__heading">Publications</h2>
+	<p class="c-home-section__sub-heading">Some recent writing which can be found on the internet.</p>
+	<div class="c-home-section__body c-home-section__body--three-col c-home-section__publications">
+		{% assign sorted = site.data.writing_links | reverse %} 
+		{% for pub in sorted | limit: 6 %}
+		<div class="writing-link__wrapper">
+			<p class="writing-link__date">{{ pub.date | date_to_string }} &nbsp;|&nbsp; {{ pub.location }}</p>
+			<a class="writing-link" href="{{ pub.href }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+		</div>
+		{% endfor %}
+	</div>
+	<a class="c-home__button" href="/writing/">More Writing</a>
+</section>

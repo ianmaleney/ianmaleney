@@ -1,0 +1,23 @@
+.index-list
+	.grid-wrapper
+		align-items: start
+	#main
+		grid-column: 5 / 11
+		grid-row-start: 1
+		display: flex
+		flex-direction: column
+		p, a
+			font-size: 1.1rem
+		@media (max-width: 768px)
+			grid-column: 2 / 12
+			grid-row-start: 2
+
+ul.link-list
+	border-top: 1px $secondary solid
+	padding-top: 24px
+	margin-top: 24px
+	li 
+		a 
+			color: $highlight
+			&:hover
+				color: $secondary

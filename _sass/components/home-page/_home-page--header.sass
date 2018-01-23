@@ -1,0 +1,16 @@
+
+//
+// Profile Photo
+//
+
+#profile-svg
+  width: 100vh
+  height: 100vh
+  margin-top: -20vh
+  filter: hue-rotate(150deg)
+  mix-blend-mode: exclusion
+  g path
+    opacity: 0
+    transition: opacity 0.5s $easing
+    &.visible
+      opacity: 0.5

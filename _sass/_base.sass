@@ -12,7 +12,7 @@ body
   overflow-x: hidden
 
 .bck
-  background-image: radial-gradient(ellipse closest-side, lighten($background-dark, 2%) 0%, $background-dark 100%)
+  background-image: radial-gradient(ellipse closest-side, lighten($background-dark, 4%) 0%, $background-dark 100%)
   position: fixed
   width: 100vw
   height: 100vh
@@ -42,21 +42,26 @@ hr
 
 p
   margin: 16px 0
-  +type-setting(1.5rem, $serif, $secondary)
+  +type-setting(1.4rem, $serif, $secondary)
   font-weight: 200
   a 
     color: $highlight
-    border-bottom: 1px solid $highlight
-    font-weight: 600
+    text-decoration: none
     &:hover, &:active
-      color: $highlight
+      color: $secondary
+      text-decoration: none
+      text-decoration-skip-ink: auto
+  @media (max-width: 600px)
+    font-size: 1.2rem
 
 a
   color: $highlight
   text-decoration: none
   cursor: pointer
   &:hover, &:active
-    color: darken($highlight, 20%)
+    color: $secondary
+    text-decoration: none
+    text-decoration-skip-ink: auto
 
 
 

@@ -8,7 +8,7 @@
   </head>
 
   <body>
-    <!--<div class="bck"></div>-->
+    <div class="bck"></div>
     <div class="grid-wrapper">
         <header class="c-masthead">
           <div class="c-masthead__text">
@@ -17,14 +17,37 @@
             <p class="c-masthead__text--small">I’m a writer, editor and web developer living in Dublin, Ireland.</p>
           </div>
           <div class="c-masthead__image">
-            <img src="images/profile-photo.svg" />
+            {% include svg/me2.svg %}
           </div>
 
         </header>
         <main id="main">
           {{ content }}
+          <!--{% include homepage/projects.html %}-->
+          {% include homepage/publications.html %}
+          {% include homepage/newsletter.html %}
+          {% include homepage/notes.html %}
+          {% include homepage/contact.html %}
         </main>
     </div>
+    <script>
+      const paths = Array.from(document.querySelectorAll("#profile-svg g path"));
+
+      var increment = function(){
+        var i = 0;
+        var visible = setInterval(function(){
+        paths[i].classList.add("visible");
+        if (i < 499) {
+          i++;
+        } else {
+          clearInterval(visible);
+        }
+      }, 10);
+      };
+
+      document.addEventListener("DOMContentLoaded", increment);
+      
+    </script>
     {% include sw.html %}
   </body>
 </html>

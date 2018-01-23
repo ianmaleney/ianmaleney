@@ -9,7 +9,13 @@
   </div>
 
   <div class="c-post__content">
-    {{ post.excerpt }}
+    <p>
+    {% if post.custom_excerpt %}
+      {{ post.custom_excerpt}}
+    {% else %}
+      {{ post.excerpt }}
+    {% endif %}
+    </p>
   </div>
 
   <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">+ Read More</a>

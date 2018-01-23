@@ -2,6 +2,7 @@
 layout: post
 title: Art, Design, Web Design
 category: blog_post
+custom_excerpt: The difference between art and design is largely philosophical while the difference between design and web design is primarily technological.
 ---
 ![William Morris ‘Trellis’ wallpaper design](/images/morris_wallpaper_trellis.jpg)
 
@@ -9,10 +10,9 @@ It’s William Morris’ birthday today, so I figured that’d be a decent excus
 
 The answer to this question is always no. I’m interested in finding out why that is the case. What are the differences between art (in the broad sense of William Morris), design (in the 20th century sense of print-media design), and web design (in the 21st century sense of contemporary web development)? Are there key differences that mark each area as something unique? Where do they cross over? Do they share philosophical or theoretical backgrounds? Can any one become the other? If so, how and when?
 
-
 The full teasing out of these questions is well beyond the scope of a single blog post, but I want to try to articulate the feeling I have about where the various boundaries lie, and why it’s somewhat dangerous to ignore or elide these distinctions.
 
-One of the most familiar distinctions between art and design is that of function: the former is generally considered to be ‘purposeless’, art pour l’art and all that; the latter is, to quote Michael Bierut, art with a purpose. In general I like this distinction as far as it implies that art’s purpose, its function, is undecided until it appears in the world. The artist’s work is always completed by the reader, the listener, the viewer. It emerges from an inspiration of some sort, an obsession or an irrational (from the perspective of capital) entanglement in an idea, and proceeds until the point where it engages with the spectator who, in perceiving the work, defines its hitherto unknown or vague purpose.
+One of the most familiar distinctions between art and design is that of function: the former is generally considered to be ‘purposeless’, _art pour l’art_ and all that; the latter is, to quote Michael Bierut, art with a purpose. In general I like this distinction as far as it implies that art’s purpose, its function, is undecided until it appears in the world. The artist’s work is always completed by the reader, the listener, the viewer. It emerges from an inspiration of some sort, an obsession or an irrational (from the perspective of capital) entanglement in an idea, and proceeds until the point where it engages with the spectator who, in perceiving the work, defines its hitherto unknown or vague purpose.
 
 Design emerges from a brief, a set of goals. It has its function inscribed in it from the beginning, even if its meaning may change and grow as it moves out into the world. There is a certain object to be presented in a certain light – the designer’s job is to manufacture that light as best they can. For me, there is always an imperative latent in a piece of design work, something which shapes a perception, which guides the viewer to something ultimately outside both the design and themselves. This might be as simple as a chair reminding you that your legs are tired, or as complex as the feelings triggered by a familiar piece of branding. A piece of art foregoes the imperative and invites a connection between viewer and work without a concrete external presence. This is broad-stroke stuff and not meant to be taken as absolute, but it’ll do as a framework for now.
 

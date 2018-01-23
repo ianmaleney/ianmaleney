@@ -1,0 +1,16 @@
+<section class="c-home-section">
+	<h2 class="c-home-section__heading">Notes</h2>
+	<p class="c-home-section__sub-heading">Scatterbrained thoughts with nowhere else to go.</p>
+	<div class="c-home-section__body c-home-section__body--three-col">
+		{% for post in site.posts | limit: 3%}
+		<div class="writing-link__wrapper">
+			<p class="writing-link__date">{{ post.date | date_to_string }}</p>
+			<a class="writing-link" href="{{ post.url }}">{{ post.title }}</a>
+		</div>
+		{% if post.short_excerpt %}
+			<p>{{ post.short_excerpt }}</p>
+		{% endif %}
+		{% endfor %}
+	</div>
+	<a class="c-home__button" href="/notes/">More Notes</a>
+</section>

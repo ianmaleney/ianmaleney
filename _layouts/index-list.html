@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+	{% include meta.html %}
+	<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+	<link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml"
+	/>
+</head>
+
+<body class="index-list page">
+	<div class="grid-wrapper">
+		<header class="c-masthead c-masthead--page">
+
+			<nav class="c-nav--secondary">
+				{% for link in site.data.nav %}
+				<a class="c-nav--secondary__link {% if page.title == link.title %} active {% endif %}" href="{{ site.baseurl }}{{ link.href }}">{{ link.title }}</a>
+				{% endfor %}
+			</nav>
+			<a href="/" class="c-masthead__site-title">Ian Maleney</a>
+		</header>
+		<main id="main">
+			{{ content }}
+		</main>
+	</div>
+	{% include sw.html %}
+</body>
+
+</html>
