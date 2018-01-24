@@ -12,10 +12,13 @@ If you'd like to talk about commissioning something, you can reach me at [imalen
 {% assign sorted = site.data.writing_links | reverse %}
 {% for link in sorted %}
 	<li {% if link.featured %} class="featured-link" {% endif %} >
-		<a href="{{ link.href }}" rel="noopener" target="_blank">{{ link.title }}, {{ link.date | date: "%B %Y" }}</a>
-		<!--{% if link.featured %} 
-			<p>{{ link.description}}</p>
+		<!--{% if link.location %}
+			<p class="c-nav--secondary__link--location">{{ link.location }}</p>
 		{% endif %}-->
+		<a href="{{ link.href }}" rel="noopener" target="_blank">{{ link.title }}, {{ link.date | date: "%B %Y" }}</a>
+		{% if link.featured %} 
+			<p>{{ link.description}}</p>
+		{% endif %}
 	</li>
 {% endfor %}
 </ul>

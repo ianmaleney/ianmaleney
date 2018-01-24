@@ -223,7 +223,7 @@
 
 - href: http://www.full-stop.net/2015/11/25/reviews/ian-maleney/the-boy-who-stole-attilas-horse-ivan-repila/
   title: Iván Repila – <i>The Boy Who Stole Attila’s Horse</i>
-  location: The Millions
+  location: Full Stop
   type: Review
   category: Literature
   date: 25/11/2015
@@ -319,9 +319,177 @@
   category: Music
   date: 24/02/2017
 
+- href: https://www.irishtimes.com/culture/film/love-actually-a-film-so-awful-it-might-be-a-masterpiece-1.3023305
+  title: <em>Love Actually</em> — a film so awful, it might be a masterpiece
+  location: The Irish Times
+  type: Criticism
+  category: Film
+  date: 24/03/2017
+
 - href: http://www.irishtimes.com/culture/film/sci-fi-tv-asks-the-big-question-what-is-it-to-be-human-1.3043911
   title: Sci-fi TV asks the big question – What is it to be human?
   location: The Irish Times 
   type: Criticism
   category: Television
   date: 17/04/2017
+
+- href: https://www.irishtimes.com/culture/books/what-happens-to-people-when-a-girl-goes-missing-1.3065243
+  title: What happens to people when a girl goes missing? — Interview with Jon McGregor
+  location: The Irish Times
+  type: Interview
+  category: Literature
+  date: 27/04/2017
+
+- href: https://www.irishtimes.com/culture/music/national-concert-hall-needs-to-go-beyond-classical-music-1.3058349
+  title: National Concert Hall needs to go beyond classical music
+  location: The Irish Times
+  type: Feature
+  category: Music
+  date: 02/05/2017
+
+- href: https://www.irishtimes.com/culture/books/cities-of-power-review-how-cities-outgrew-mighty-nation-states-1.3069991
+  title: <em>Cities of Power</em>, by Goran Therborn
+  location: The Irish Times
+  type: Review
+  category: Literature
+  date: 13/05/2017
+
+- href: https://www.irishtimes.com/culture/tv-radio-web/twin-peaks-reboot-sees-a-new-generation-discover-an-old-evil-1.3083719
+  title: ‘Twin Peaks’ reboot sees a new generation discover an old evil
+  location: The Irish Times
+  type: Criticism
+  category: Television
+  date: 20/05/2017
+
+- href: https://www.soundslikenow.net/sanctuary-of-sound/
+  title: Sanctuary of Sound — Louth Contemporary Music Society
+  location: Sounds Like Now
+  type: Interview
+  category: Music
+  date: 01/06/2017
+
+- href: https://www.irishtimes.com/culture/books/anyone-would-find-an-affair-with-a-married-man-stressful-1.3101682
+  title: ‘Anyone would find an affair with a married man stressful’ — Sally Rooney Interview 
+  location: The Irish Times
+  type: Interview
+  category: Literature
+  date: 03/06/2017
+
+- href: https://www.irishtimes.com/culture/music/putting-on-art-music-in-a-concert-hall-is-not-good-enough-any-more-1.3116707
+  title: ‘Putting on art music in a concert hall is not good enough any more’ — The Crash Ensemble
+  location: The Irish Times
+  type: Feature
+  category: Music
+  date: 14/06/2017
+
+- href: https://www.irishtimes.com/culture/books/madeleine-thien-imagine-if-expressing-a-thought-meant-life-or-death-1.3122354
+  title: Imagine if expressing a thought meant life or death — Interview with Madeleine Thien
+  location: The Irish Times
+  type: Interview
+  category: Literature
+  date: 21/06/2017
+
+- href: https://www.irishtimes.com/culture/books/white-plains-review-editor-gordon-lish-follows-his-musings-1.3135731
+  title: <em>White Plains</em>, by Gordon Lish
+  location: The Irish Times
+  type: Review
+  category: Literature
+  date: 01/07/2017
+
+- href: https://www.irishtimes.com/culture/books/the-idiot-review-sharp-funny-reflections-on-a-not-quite-adult-life-1.3164134
+  title: <em>The Idiot</em>, by Elif Batuman
+  location: The Irish Times
+  type: Review
+  category: Literature
+  date: 29/07/2017
+
+- href: https://www.irishtimes.com/culture/twin-peaks-finale-baffling-discombobulating-inconclusive-brilliant-1.3211955
+  title: <em>Twin Peaks</em> finale — baffling, discombobulating, inconclusive, brilliant
+  location: The Irish Times
+  type: Criticism
+  category: Television
+  date: 06/09/2017
+
+- href: https://www.irishtimes.com/culture/art-and-design/the-sound-and-fury-of-australia-s-remote-outposts-1.3246761
+  title: The sound and fury of Australia’s remote outposts
+  location: The Irish Times
+  type: Interview
+  category: Music
+  date: 29/09/2017
+
+- href: https://www.irishtimes.com/culture/music/the-day-the-clash-and-punk-turned-trinity-into-a-war-zone-1.3255049
+  title: The day The Clash and punk turned Trinity into a war zone
+  location: The Irish Times
+  type: Feature
+  category: Music
+  date: 21/10/2017
+
+- href: http://winterpapers.com/
+  title: <em>And The Wind It Tremendously Blew</em>
+  location: Winter Papers
+  type: Essay
+  category: Book
+  date: 31/10/2017
+
+- href: https://www.irishtimes.com/culture/books/joshua-cohen-i-am-a-partisan-of-the-parochial-1.3276574
+  title: Joshua Cohen — 'I am a partisan of the parochial'
+  location: The Irish Times
+  type: Interview
+  category: Literature
+  date: 04/11/2017
+
+- href: https://www.irishtimes.com/culture/music/growing-up-in-kerry-people-acted-weird-and-called-it-normal-1.3302990
+  title: Winter Aid – Growing up in Kerry, people ‘acted weird and called it normal’ 
+  location: The Irish Times
+  type: Interview
+  category: Music
+  date: 27/11/2017
+
+- href: https://www.irishtimes.com/culture/music/streaming-music-why-royalties-are-still-only-a-trickle-1.3312320
+  title: Streaming music — why royalties are still only a trickle
+  location: The Irish Times
+  type: Feature
+  category: Music
+  date: 9/12/2017
+
+- href: https://www.irishtimes.com/culture/books/the-white-review-anthology-edited-by-jacques-testard-ben-eastham-review-1.3312298
+  title: <em>The White Review Anthology</em>, edited by Jacques Testard & Ben Eastham
+  location: The Irish Times
+  type: Review
+  category: Literature
+  date: 23/12/2017
+
+- href: https://www.irishtimes.com/culture/you-could-do-anything-with-that-blank-page-which-is-horrifying-1.3326414
+  title: David Hayden – ‘You could do anything with that blank page, which is horrifying’
+  location: The Irish Times
+  type: Interview
+  category: Literature
+  date: 02/01/2018
+
+- href: https://www.irishtimes.com/culture/music/awesome-tapes-from-africa-full-recordings-original-artwork-no-changes-1.3312285
+  title: Awesome Tapes from Africa – full recordings, original artwork, no changes
+  location: The Irish Times
+  type: Interview
+  category: Music
+  date: 03/01/2018
+
+- href: https://www.irishtimes.com/culture/books/the-digital-critic-literary-culture-online-edited-by-houman-barekat-robert-barry-and-winters-review-1.3332753
+  title: <em>The Digital Critic – Literary Culture Online</em>, edited by Houman Barekat, Robert Barry and Winters
+  location: The Irish Times
+  type: Review
+  category: Literature
+  date: 06/01/2018
+
+- href: http://districtmagazine.ie/feature/lorenzo-senni-on-his-fascination-with-the-extremes-of-music/
+  title: Lorenzo Senni on his fascination with the extremes of music
+  location: District Magazine
+  type: Interview
+  category: Music
+  date: 18/01/2018
+
+- href: https://www.irishtimes.com/culture/books/the-unmapped-country-by-ann-quin-review-pleasures-and-treasures-1.3356138
+  title: <em>The Unmapped Country</em>, by Ann Quin
+  location: The Irish Times
+  type: Review
+  category: Literature
+  date: 20/01/2018
