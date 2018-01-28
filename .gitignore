@@ -7,3 +7,5 @@ _site
 node_modules
 package.json
 *.codekit
+Gemfile
+Gemfile.lock
