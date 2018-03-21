@@ -528,3 +528,24 @@
   type: Review
   category: Literature
   date: 20/01/2018
+
+- href: https://www.irishtimes.com/culture/tv-radio-web/tuning-out-digital-radio-fails-to-make-waves-1.3382499
+  title: Tuning Out – Digital Radio Fails to Make Waves
+  location: The Irish Times
+  type: Feature
+  category: Music
+  date: 10/02/2018
+
+- href: https://www.irishtimes.com/culture/music/cork-sound-festival-pushes-all-the-right-buttons-1.3428411
+  title: Cork Sound Festival pushes all the right buttons
+  location: The Irish Times
+  type: Feature
+  category: Music
+  date: 19/03/2018
+
+- href: https://thedublinreview.com/
+  title: Shelter
+  location: Dublin Review
+  type: Essay
+  category: Personal
+  date: 01/03/2018
