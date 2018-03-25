@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-    {% include meta.html %}
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-  </head>
+{% include head.html %}
 
-  <body>
-    <div class="grid-wrapper">
-        <header class="c-masthead">
+<body>
+  <div class="grid-wrapper">
+    <header class="c-masthead">
 
-          <nav class="c-masthead__nav">
-            {% for link in site.data.nav %}
-            <a class="c-masthead__nav--link {% if page.title == link.title %} active {% endif %}" href="{{ site.baseurl }}{{ link.href }}">{{ link.title }}</a>
-            {% endfor %}
-          </nav>
+      <nav class="c-masthead__nav">
+        {% for link in site.data.nav %}
+        <a class="c-masthead__nav--link {% if page.title == link.title %} active {% endif %}" href="{{ site.baseurl }}{{ link.href }}">{{ link.title }}</a>
+        {% endfor %}
+      </nav>
 
-          <h1 class="c-site-info"><a href="{{ site.baseurl }}/" class="c-site-info__name">Ian Maleney</a></h1>
+      <h1 class="c-site-info">
+        <a href="{{ site.baseurl }}/" class="c-site-info__name">Ian Maleney</a>
+      </h1>
 
-        </header>
-        <main id="main">
-          {{ content }}
-        </main>
-    </div>
-    {% include typekit.html %}
-    {% include sw.html %}
-  </body>
+    </header>
+    <main id="main">
+      {{ content }}
+    </main>
+  </div>
+  {% include typekit.html %} {% include sw.html %}
+</body>
+
 </html>
